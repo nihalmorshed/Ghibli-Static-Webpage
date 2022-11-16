@@ -108,6 +108,9 @@ article p{
 }
 section.join{
     text-align: center;
+    letter-spacing: 2px;
+    font-weight: 600;
+    font-size: 17px;
     background-color: beige;
     padding: 50px 20px;
     color: rgb(84, 80, 80);
@@ -146,9 +149,9 @@ form input:focus{
     border: 2px dashed red;
     outline: none;
 }
-form input:valid{
+/* form input:valid{
     border: 2px dashed green;
-}
+} */
 article p:first-letter{
     font-size: 2em;
 }
@@ -156,10 +159,10 @@ p::selection{
     background-color: plum;
     color: white;
 }
-p::after{
+/* p::after{
     content: " ---->";
     color: red;
-}
+} */
 
 /* media queries */
 
