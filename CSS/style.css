@@ -115,6 +115,12 @@ section.join{
     padding: 50px 20px;
     color: rgb(84, 80, 80);
 }
+section.join span{
+    display: block;
+    color: blueviolet;
+    text-decoration: none;
+    font-weight: 700;
+}
 .join h2{
     font-size: 30px;
     color: brown;
